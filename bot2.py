@@ -22,4 +22,8 @@ async def boszen(ctx):
 async def heh(ctx, count_heh = 5):
     await ctx.send("he" * count_heh)
 
+@bot.command()
+async def laper(ctx):
+    await ctx.send(f'Hi! I am a bot {bot.user}laper?? ya tinggal makan')
+
 bot.run("MTE1NTA2NDQ1OTYwNjM4MDU0NA.GR5wbJ.GNdXhv3Dle0lY2CPHn6IRZuXyQh_PzIWNf6G70")
